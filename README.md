@@ -20,4 +20,4 @@ Enter the data asked for and all will function fine. The username is generally a
 A. Requires python 2.7.X
 B. Requires the workfront file 'api.py' included in this folder.
 C. Send feature requests or questions to brian.evans(AT)quotit.com
-D. An executable version is available, it functions the same as the PY version.
+D. An executable version is available, it functions the same as the PY version. To use this version, just download the zip file BROADSWORDwf.zip from this repository. Extract the contents to a folder and run the file BROADSWORDwf.exe. This version does not provide direct access to console logging, and as such should be used carefully and with purpose (don't screw the pooch with careless updates).
