@@ -13,7 +13,7 @@ Builder = 'Builder'
 projIDlist = []
 taskIDlist = []
 assignIDlist = []
-client = StreamClient('https://wordandbrown.attask-ondemand.com/attask/api/')
+client = StreamClient('https://entersubdomainhere.attask-ondemand.com/attask/api/')
 
 
 #start TKinter build#
