@@ -13,6 +13,8 @@ Builder = 'Builder'
 projIDlist = []
 taskIDlist = []
 assignIDlist = []
+
+#this will need to be updated with the actual subdomain to be valid
 client = StreamClient('https://entersubdomainhere.attask-ondemand.com/attask/api/')
 
 
@@ -65,9 +67,9 @@ spacer.grid(column=0,row=7,columnspan=2)
 
 BuilderL = Label(mainframe, justify=CENTER, text='Who would you like to assign to?\n(Please only input the number)')
 BuilderL.grid(column=0,row=8,columnspan=2)
-BuilderL2 = Label(mainframe,justify=CENTER,text='1) Andrew K\n2) Brian E\n3) Heather Y\n4) Hillary V\n5) Isaac M\n6) James D\n7) Jon B\n8) Jon N')
+BuilderL2 = Label(mainframe,justify=CENTER,text='1) Andrew K\n2) B E\n3) H Y\n4) H V\n5) I M\n6) J D\n7) J B\n8) J N')
 BuilderL2.grid(column=0,row=9)
-BuilderL3 = Label(mainframe,justify=CENTER,text='9) Matthew A\n10) Matthew S\n11) Melodie C\n12) Rick N\n13) Robert E\n14) Shawn L\n15) Susan B')
+BuilderL3 = Label(mainframe,justify=CENTER,text='9) M A\n10) M S\n11) M C\n12) R N\n13) R E\n14) S L\n15) S B')
 BuilderL3.grid(column=1,row=9)
 
 BuilderE = Entry(mainframe,bd=5)
