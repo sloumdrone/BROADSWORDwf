@@ -15,6 +15,7 @@ taskIDlist = []
 assignIDlist = []
 
 #this will need to be updated with the actual subdomain to be valid
+#also 'CoName' needs to be find and replaced with the company name
 client = StreamClient('https://entersubdomainhere.attask-ondemand.com/attask/api/')
 
 
@@ -103,7 +104,7 @@ runprogram.grid(column=0, row=11, columnspan=2)
 
 
 
-#fieldlist = ['ID','DE:Quotit CarrierID','DE:Quotit EffectiveDateStart']
+#fieldlist = ['ID','DE:CoName CarrierID','DE:CoName EffectiveDateStart']
 
 
 def getproject():
@@ -113,7 +114,7 @@ def getproject():
     
     carrierIDs = [int(x) for x in carrieridlist.split(",")]
     for carrierid in carrierIDs:
-        results = client.search(ObjCode.PROJECT,{'DE:Quotit CarrierID':carrierid,'DE:Quotit EffectiveDateStart':convertperiodid(int(periodid))})
+        results = client.search(ObjCode.PROJECT,{'DE:CoName CarrierID':carrierid,'DE:CoName EffectiveDateStart':convertperiodid(int(periodid))})
         print 'Project ID list:'
         for p in results:
             project = AtTaskObject(p)
