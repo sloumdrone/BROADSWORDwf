@@ -1,4 +1,4 @@
-### BROADSWORDwf: Batch Assignment Tool
+# BROADSWORDwf: Batch Assignment Tool
 
 
 ## Objective
