@@ -1,7 +1,4 @@
-
 ### BROADSWORDwf: Batch Assignment Tool
- ~**by_Brian_Evans**~
-
 
 
 ## Objective
