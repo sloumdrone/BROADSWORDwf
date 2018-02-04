@@ -10,6 +10,8 @@ Enter the data asked for and all will function fine. The username is generally a
 
 #### Dependencies
  - Requires python 2.7.X
+ - Setup.py has been included for those that want to make modifications and then export a windows binary
+     - Exporting a Windows binary will require py2exe, available via pip
 
 ##### Notes
 1. Requires the workfront file 'api.py' included in this repo.
